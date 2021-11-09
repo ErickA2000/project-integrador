@@ -101,6 +101,7 @@ img {
 
 .text-footer{
     color: white;
+    text-align: center;
 }
 
 .logoimg{
@@ -119,4 +120,12 @@ img {
 
 .text-objetivos{
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .grid-misi-visi{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
 }
